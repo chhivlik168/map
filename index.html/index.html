@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+
+        .bg {
+            padding: 20px;
+            width: 30%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .input {
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .button {
+            border: none;
+            border-radius: 5px;
+            color: rgb(243, 243, 246);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            /* display: inline-block; */
+            font-size: 16px;
+            /* margin: 10px 50px 0px 0px; */
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button1 {
+            background-color: #4CAF50;
+        }
+
+        .button1:hover {
+            background-color: #308633;
+        }
+
+        .button2 {
+            background-color: #008CBA;
+        }
+
+        .button2:hover {
+            background-color: #175f77;
+        }
+
+        .div {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57408.088869479456!2d104.92439494547241!3d11
+    .279963950646845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109619b2304c4c7%3A0x94c8727cef407860!2z4Z6f4Z624Z6b4Z624Z6U4Z6L4
+    Z6Y4Z6f4Z634Z6A4Z-S4Z6f4Z624oCLIOGeoOGfiuGeu-Gek-KAiyDhnp_hn4LhnpPigIsg4Z6x4Z6E4Z-S4Z6A4Z624Z6a4Z-J4Z624Z6Y!5e0!3m2!1skm!2skh!4v167385256
+    9885!5m2!1skm!2skh" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="center">
+        <div class="bg">
+            <form>
+                <h1 style="text-align: center;">Application</h1>
+                <div>
+                    <inbel for="input">First name</inbel><br><br>
+                    <input class="input" type="text" placeholder="Your name" required><br><br>
+                    <inel for="input">list name</inel><br><br>
+                    <input class="input" type="text" placeholder="Your Last Name" required><br>
+                </div><br>
+                <div>
+                    <label for="countrys">Countrys</label><br>
+                    <select class="input" name="countrys" id="countrys">
+                        <option required value="cambodia">Cambodia</option>
+                        <option required value="usa">USA</option>
+                        <option required value="japan">Japan</option>
+                        <option required value="russia">Russia</option>
+                    </select><br><br>
+                </div>
+                <div>
+                    <label for="radio">Sex</label><br><br>
+                    <div class="radio">
+                        <label class="radio" for="male">Male</label>
+                        <input class="radio" required type="radio" id="age1" name="age">
+                        <label class="radio" for="female">Female</label>
+                        <input class="radio" required type="radio" id="age2" name="age">
+                        <label class="radio" for="other">Other</label>
+                        <input class="radio" required type="radio" id="age3" name="age">
+                    </div><br>
+                </div>
+                <div>
+                    <textarea class="input" name="message" id="" cols="30" rows="10" required></textarea>
+                </div><br>
+                <div class="div">
+                    <button class="button button1" type="submit" value="Submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
